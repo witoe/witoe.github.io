@@ -5,5 +5,21 @@ module.exports = {
 
     themeConfig: {
         logo: 'https://vuejs.org/images/logo.png',
+        navbar: [{
+                text: 'Teaching',
+                children: [{ text: "web211", link: '/teaching/web211/' }],
+            },
+            {
+                text: 'ORCID',
+                link: 'https://orcid.org/0000-0003-1706-525X',
+            },
+        ],
+        repo: "https://github.com/guyonggu/guyonggu.github.io",
+        sidebar: {
+            '/javascript/': ['index.md', 'introduction.md', 'collections.md', 'scope_and_closure.md', 'promise.md', 'object_prototype.md',
+                'reading-notes.md',
+                'misc.md',
+            ],
+        },
     },
 }
