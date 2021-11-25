@@ -2,6 +2,9 @@
 title: Reading Notes
 ---
 Notes taken when reading books, wepages, etc.
+## Javascript: The Definitive Guide
+[link](./js-TDG.md)
+
 ## Javascript 设计模式与开发实践
 人类可以走到生物链顶端的前两个原因分别是会“使用名字” 和“使用工具”
 分辨模式的关键是意图而不是结构
