@@ -18,6 +18,9 @@ module.exports = {
             },
         ],
         repo: "https://github.com/iguyong/iguyong.github.io",
+        editLinks: true,
+        search: true,
+        docsDir: 'docs',
         sidebar: {
             '/javascript/': ['index.md', 'introduction.md', 'collections.md', 'scope_and_closure.md', 'promise.md', 'object_prototype.md',
                 'reading-notes.md',
