@@ -4,7 +4,10 @@ module.exports = {
     description: 'MY personal blog.',
 
     themeConfig: {
-        logo: 'https://vuejs.org/images/logo.png',
+        logo: '/_assets/images/logo.svg',
+        head: [
+            ['link', { rel: 'icon', href: '/_assets/images/logo.svg' }],
+        ],
         navbar: [{
                 text: 'Teaching',
                 children: [{ text: "web211", link: '/teaching/web211/' }],
