@@ -17,7 +17,7 @@ module.exports = {
                 link: 'https://orcid.org/0000-0003-1706-525X',
             },
         ],
-        repo: "https://github.com/guyonggu/guyonggu.github.io",
+        repo: "https://github.com/iguyong/iguyong.github.io",
         sidebar: {
             '/javascript/': ['index.md', 'introduction.md', 'collections.md', 'scope_and_closure.md', 'promise.md', 'object_prototype.md',
                 'reading-notes.md',
