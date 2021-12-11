@@ -12,7 +12,11 @@ ttile: web基础大作业
 3. 需要使用以下技术（不能只写代码，要看到相应的效果）
 * html: 表单form, 表格table, 图片img, 列表ul(或ol)
 * css: float+clear布局, position定位（absolute, fixed)，文字悬浮于图片上，伪类，伪元素
-* js(待定)
+* js: 实现以下效果中的两种
+![scroll-to-top](scroll-to-top.gif)
+![scroll-to-top](accordian.gif)
+![scroll-to-top](vertical-tab.gif)
+![image-slide](image-slide.gif)
 
 # 报告要求
 1. 除以上指出的外，还需写清楚
