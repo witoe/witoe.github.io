@@ -4,7 +4,7 @@ module.exports = {
     description: 'MY personal blog.',
 
     themeConfig: {
-        logo: '/_assets/images/logo.svg',
+        logo: '/_assets/images/logo.png',
         head: [
             ['link', { rel: 'icon', href: '/_assets/images/logo.svg' }],
         ],
@@ -27,5 +27,10 @@ module.exports = {
                 'misc.md',
             ],
         },
+    },
+    markdown: {
+        extendMarkdown: md => {
+            md.set({ breaks: false })
+        }
     },
 }
