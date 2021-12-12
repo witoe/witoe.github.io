@@ -4,7 +4,7 @@ module.exports = {
     description: 'MY personal blog.',
 
     themeConfig: {
-        logo: '/_assets/images/logo.png',
+        logo: '/assets/images/logo.svg',
         head: [
             ['link', { rel: 'icon', href: '/_assets/images/logo.svg' }],
         ],
