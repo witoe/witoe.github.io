@@ -28,9 +28,8 @@ module.exports = {
             ],
         },
     },
-    markdown: {
-        extendMarkdown: md => {
-            md.set({ breaks: false })
-        }
+
+    extendsMarkdown: md => {
+        md.set({ breaks: false })
     },
 }
